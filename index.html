@@ -7,6 +7,12 @@
     <title>My Team Page</title>
 </head>
 <body>
+    
+    <div class="toggle">
+        <input type="checkbox" id="demo" onChange="toggleDocument()">
+        <label for="demo"></label>
+    </div>
+
     <div class="head">
         <div class="header">
             <h1>The Creative Crew</h1>
@@ -48,7 +54,15 @@
             <p>Stan John</p>
         </div>
     </div>
-    
+    <script>
+        function toggleDocument() {
+            var elements = document.querySelectorAll("body");
+            var i;
+            for (i = 0; i < elements.length; i++) {
+                elements[i].classList.toggle("section-dark")
+            }
+        }
+    </script>
 
 </body>
 </html>
