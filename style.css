@@ -31,14 +31,14 @@ body {
     align-items: center;
     margin-left: 50px;
 }
-.crew {
+div.crew {
     width: 33%;
     position: relative;
 }
 
 
 .crew img {
-    width: 300px;
+    width: 60%;
     box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.35);
     border-radius: 5px;
 }
@@ -55,7 +55,6 @@ body span{
     padding-left:30px;
     font-size: 11px;
     line-height: 13px;
-    font-family: var(--main-heading);
     text-transform: uppercase;
     font-weight: lighter; 
 }
@@ -63,7 +62,7 @@ body span{
 .crew p {
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+    font-size: 24px;
     font-weight: bolder;
 }
 
@@ -79,14 +78,15 @@ body span{
         margin:10px 30px;
         font-size: 14px;
     }
-    .crew {
-        width: 45%;
+    div .crew {
+        position: relative;
+        width: 50%;
     }
 
-    .crew img {
-        width: 200px;
+    .crew p {
+        position: relative;
+        font-size: 16px;
     }
-
     body span{
         padding-left:10px;
         font-size: 9px;
@@ -105,12 +105,9 @@ body span{
         margin:5px 20px;
         font-size: 12px;
     }
-    .crew {
+    div .crew {
+        position: relative;
         width: 45%;
-    }
-
-    .crew img {
-        width: 150px;
     }
 
     body span{
